@@ -1,7 +1,8 @@
 import { When, Then, Given } from "@badeball/cypress-cucumber-preprocessor";
 
 Given("I am on empty home page", () => {
-  cy.visit("/");
+  cy.visit("www.google.com");
+  cy.pause();
 });
 
 When("I type and submit in the board name", () => {

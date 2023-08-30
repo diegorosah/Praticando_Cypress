@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@aichemy/testgold-cypress-plugin": "^1.6.0",
     "@badeball/cypress-cucumber-preprocessor": "^18.0.5",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0"
   }
