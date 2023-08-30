@@ -1,7 +1,7 @@
 import { When, Then, Given } from "@badeball/cypress-cucumber-preprocessor";
 
-Given("I am on empty home page", () => {
-  cy.visit("www.google.com");
+Given("que estou logando na pagina do Salesforce", () => {
+  cy.visit("https://cunning-moose-5fsno9-dev-ed.trailblaze.lightning.force.com/lightning/n/trlhdtips__Welcome");
   cy.pause();
 });
 
